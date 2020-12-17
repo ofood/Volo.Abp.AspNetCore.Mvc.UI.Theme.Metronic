@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic</id>
+    <version>3.3.1</version>
+    <authors>Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">LGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/LGPL-3.0-only</licenseUrl>
+    <projectUrl>https://abp.io/</projectUrl>
+    <iconUrl>https://abp.io/assets/abp_nupkg.png</iconUrl>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/abpframework/abp/" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" version="3.3.1" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared" version="3.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.pdb" target="lib\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.pdb" />
+    <file src="E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Views.pdb" target="lib\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Views.pdb" />
+    <file src="E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Views.dll" target="lib\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Views.dll" />
+    <file src="E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.dll" target="lib\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.dll" />
+    <file src="E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.xml" target="lib\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.xml" />
+  </files>
+</package>

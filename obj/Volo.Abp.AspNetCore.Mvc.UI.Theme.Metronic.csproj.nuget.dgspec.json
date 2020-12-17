@@ -1,0 +1,3870 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj": {}
+  },
+  "projects": {
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\Volo.Abp.ApiVersioning.Abstractions.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\Volo.Abp.ApiVersioning.Abstractions.csproj",
+        "projectName": "Volo.Abp.ApiVersioning.Abstractions",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\Volo.Abp.ApiVersioning.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\Volo.Abp.AspNetCore.MultiTenancy.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\Volo.Abp.AspNetCore.MultiTenancy.csproj",
+        "projectName": "Volo.Abp.AspNetCore.MultiTenancy",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\Volo.Abp.AspNetCore.MultiTenancy.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\Volo.Abp.AspNetCore.Mvc.Contracts.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\Volo.Abp.AspNetCore.Mvc.Contracts.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.Contracts",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\Volo.Abp.AspNetCore.Mvc.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\Volo.Abp.Ddd.Application.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\Volo.Abp.Ddd.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\Volo.Abp.AspNetCore.Mvc.UI.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\Volo.Abp.AspNetCore.Mvc.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Bundling",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\Volo.Abp.AspNetCore.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.MultiTenancy\\Volo.Abp.AspNetCore.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\Volo.Abp.AspNetCore.Mvc.UI.Packages.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\Volo.Abp.AspNetCore.Mvc.UI.Packages.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Packages",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\Volo.Abp.AspNetCore.Mvc.UI.Packages.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap\\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\Volo.Abp.AspNetCore.Mvc.UI.Packages.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Packages\\Volo.Abp.AspNetCore.Mvc.UI.Packages.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\Volo.Abp.AspNetCore.Mvc.UI.Widgets.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\Volo.Abp.AspNetCore.Mvc.UI.Widgets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\Volo.Abp.AspNetCore.Mvc.UI.Widgets.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\Volo.Abp.AspNetCore.Mvc.UI.Widgets.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Widgets",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\Volo.Abp.AspNetCore.Mvc.UI.Widgets.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Widgets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Bundling\\Volo.Abp.AspNetCore.Mvc.UI.Bundling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\Volo.Abp.AspNetCore.Mvc.UI.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\Volo.Abp.AspNetCore.Mvc.UI.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\Volo.Abp.AspNetCore.Mvc.UI.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\Volo.Abp.AspNetCore.Mvc.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\Volo.Abp.AspNetCore.Mvc.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\Volo.Abp.UI.Navigation.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\Volo.Abp.UI.Navigation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\Volo.Abp.AspNetCore.Mvc.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\Volo.Abp.AspNetCore.Mvc.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\Volo.Abp.AspNetCore.Mvc.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\Volo.Abp.ApiVersioning.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ApiVersioning.Abstractions\\Volo.Abp.ApiVersioning.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\Volo.Abp.AspNetCore.Mvc.Contracts.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.Contracts\\Volo.Abp.AspNetCore.Mvc.Contracts.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\Volo.Abp.GlobalFeatures.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\Volo.Abp.GlobalFeatures.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj",
+        "projectName": "Volo.Abp.AspNetCore",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\Volo.Abp.AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\Volo.Abp.Http.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\Volo.Abp.Http.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
+        "projectName": "Volo.Abp.Auditing",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
+        "projectName": "Volo.Abp.Authorization",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
+        "projectName": "Volo.Abp.Core",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2020.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Nito.AsyncEx.Coordination": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Loader": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
+        "projectName": "Volo.Abp.Data",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\Volo.Abp.Ddd.Application.Contracts.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\Volo.Abp.Ddd.Application.Contracts.csproj",
+        "projectName": "Volo.Abp.Ddd.Application.Contracts",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\Volo.Abp.Ddd.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\Volo.Abp.Ddd.Application.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\Volo.Abp.Ddd.Application.csproj",
+        "projectName": "Volo.Abp.Ddd.Application",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\Volo.Abp.Ddd.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\Volo.Abp.Ddd.Application.Contracts.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Application.Contracts\\Volo.Abp.Ddd.Application.Contracts.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\Volo.Abp.Features.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\Volo.Abp.Features.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
+        "projectName": "Volo.Abp.Ddd.Domain",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Ddd.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
+        "projectName": "Volo.Abp.EventBus",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj",
+        "projectName": "Volo.Abp.ExceptionHandling",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\Volo.Abp.Features.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\Volo.Abp.Features.csproj",
+        "projectName": "Volo.Abp.Features",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\Volo.Abp.Features.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Features\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\Volo.Abp.GlobalFeatures.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\Volo.Abp.GlobalFeatures.csproj",
+        "projectName": "Volo.Abp.GlobalFeatures",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\Volo.Abp.GlobalFeatures.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.GlobalFeatures\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
+        "projectName": "Volo.Abp.Guids",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Guids\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj",
+        "projectName": "Volo.Abp.Http.Abstractions",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\Volo.Abp.Http.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\Volo.Abp.Http.csproj",
+        "projectName": "Volo.Abp.Http",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\Volo.Abp.Http.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Http.Abstractions\\Volo.Abp.Http.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
+        "projectName": "Volo.Abp.Json",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Json\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
+        "projectName": "Volo.Abp.Localization.Abstractions",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
+        "projectName": "Volo.Abp.Localization",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj",
+        "projectName": "Volo.Abp.Minify",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\Volo.Abp.Minify.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Minify\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
+        "projectName": "Volo.Abp.MultiTenancy",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
+        "projectName": "Volo.Abp.ObjectExtending",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectExtending\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
+        "projectName": "Volo.Abp.ObjectMapping",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ObjectMapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
+        "projectName": "Volo.Abp.Security",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
+        "projectName": "Volo.Abp.Settings",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
+        "projectName": "Volo.Abp.Threading",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Threading\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
+        "projectName": "Volo.Abp.Timing",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Timing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\Volo.Abp.UI.Navigation.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\Volo.Abp.UI.Navigation.csproj",
+        "projectName": "Volo.Abp.UI.Navigation",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\Volo.Abp.UI.Navigation.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI.Navigation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj",
+        "projectName": "Volo.Abp.UI",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\Volo.Abp.UI.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.ExceptionHandling\\Volo.Abp.ExceptionHandling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
+        "projectName": "Volo.Abp.Uow",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Uow\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
+        "projectName": "Volo.Abp.Validation.Abstractions",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj",
+        "projectName": "Volo.Abp.Validation",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\Volo.Abp.Validation.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
+        "projectName": "Volo.Abp.VirtualFileSystem",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.VirtualFileSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Composite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj": {
+      "version": "3.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj",
+        "projectName": "Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic",
+        "projectPath": "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://127.0.0.1:8000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj"
+              },
+              "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj": {
+                "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

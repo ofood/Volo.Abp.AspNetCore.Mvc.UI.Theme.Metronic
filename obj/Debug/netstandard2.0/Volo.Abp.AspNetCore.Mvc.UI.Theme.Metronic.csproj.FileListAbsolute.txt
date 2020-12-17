@@ -1,0 +1,4 @@
+E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\obj\Debug\netstandard2.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csprojAssemblyReference.cache
+E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\obj\Debug\netstandard2.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.AssemblyInfoInputs.cache
+E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\obj\Debug\netstandard2.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.AssemblyInfo.cs
+E:\abpdemo\abp-3.3.1\modules\ecology\themes\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\obj\Debug\netstandard2.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj.CoreCompileInputs.cache

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic</name>
+    </assembly>
+    <members>
+        <member name="T:Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Bundling.MetronicThemeBundles">
+            <summary>
+            主题捆绑包
+            </summary>
+        </member>
+        <member name="T:Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Bundling.MetronicThemeBundles.Styles">
+            <summary>
+            样式
+            </summary>
+        </member>
+        <member name="T:Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Bundling.MetronicThemeBundles.Scripts">
+            <summary>
+            脚本
+            </summary>
+        </member>
+        <member name="T:Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Bundling.MetronicThemeGlobalScriptContributor">
+            <summary>
+            全局脚本贡献者
+            </summary>
+        </member>
+        <member name="T:Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.Bundling.MetronicThemeGlobalStyleContributor">
+            <summary>
+            全局样式贡献者
+            </summary>
+        </member>
+    </members>
+</doc>

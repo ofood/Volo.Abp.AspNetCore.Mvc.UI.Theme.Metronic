@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.AspNetCore.Mvc.UI.Bootstrap</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Pagination.PagerModel.GetPagesWithGaps" -->
+    </members>
+</doc>

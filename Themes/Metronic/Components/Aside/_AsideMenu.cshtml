@@ -1,0 +1,52 @@
+﻿@using Volo.Abp.UI.Navigation
+@model ApplicationMenuItem
+@{ var elementId = string.IsNullOrEmpty(Model.ElementId) ? string.Empty : $"id=\"{Model.ElementId}\"";
+    var cssClass = string.IsNullOrEmpty(Model.CssClass) ? string.Empty : Model.CssClass;
+    var disabled = Model.IsDisabled ? "disabled" : string.Empty;
+    var url = string.IsNullOrEmpty(Model.Url) ? "#" : Url.Content(Model.Url); }
+
+
+@if (Model.IsLeaf)
+{
+  if (Model.Url != null)
+  {
+    var activeCss = (Context.Request.Path.Value == Model.Url.Replace("~", "") )? "kt-menu__item--active" : "";
+<li class="kt-menu__item  @activeCss" aria-haspopup="true">
+  <a class="kt-menu__link  @disabled" href="@url" @Html.Raw(elementId)>
+    <i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>
+    @if (Model.Icon != null)
+    {
+  <i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>}
+
+    <span class="kt-menu__link-text">@Model.DisplayName</span>
+    @*<span class="kt-menu__link-badge">
+        <span class="kt-badge kt-badge--danger kt-badge--inline">new</span>
+    </span>*@
+  </a>
+</li> }
+            }
+            else
+            {
+<li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--open kt-menu__item--here" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+  <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+    
+    <i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i>
+    <span class="kt-menu__link-text">@Model.DisplayName</span><i class="kt-menu__ver-arrow la la-angle-right"></i>
+  </a>
+
+    <div class="kt-menu__submenu ">
+
+        <span class="kt-menu__arrow"></span>
+        <ul class="kt-menu__subnav">
+            @foreach (var childMenuItem in Model.Items)
+            {
+        @await Html.PartialAsync("~/Themes/Metronic/Components/Aside/_AsideMenu.cshtml", childMenuItem)
+            }
+        </ul>
+    </div>
+    </li>
+    }
+
+
+
+

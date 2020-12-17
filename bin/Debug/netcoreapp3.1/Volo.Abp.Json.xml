@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.Json</name>
+    </assembly>
+    <members>
+        <member name="P:Volo.Abp.Json.AbpJsonOptions.DefaultDateTimeFormat">
+            <summary>
+            Used to set default value for the DateTimeFormat.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.Data</name>
+    </assembly>
+    <members>
+        <member name="P:Volo.Abp.Data.AbpCommonDbProperties.DbTablePrefix">
+            <summary>
+            This table prefix is shared by most of the ABP modules.
+            You can change it to set table prefix for all modules using this.
+            
+            Default value: "Abp".
+            </summary>
+        </member>
+        <member name="P:Volo.Abp.Data.AbpCommonDbProperties.DbSchema">
+            <summary>
+            Default value: null.
+            </summary>
+        </member>
+        <member name="M:Volo.Abp.Data.AbpDbConcurrencyException.#ctor">
+            <summary>
+            Creates a new <see cref="T:Volo.Abp.Data.AbpDbConcurrencyException"/> object.
+            </summary>
+        </member>
+        <member name="M:Volo.Abp.Data.AbpDbConcurrencyException.#ctor(System.String)">
+            <summary>
+            Creates a new <see cref="T:Volo.Abp.Data.AbpDbConcurrencyException"/> object.
+            </summary>
+            <param name="message">Exception message</param>
+        </member>
+        <member name="M:Volo.Abp.Data.AbpDbConcurrencyException.#ctor(System.String,System.Exception)">
+            <summary>
+            Creates a new <see cref="T:Volo.Abp.Data.AbpDbConcurrencyException"/> object.
+            </summary>
+            <param name="message">Exception message</param>
+            <param name="innerException">Inner exception</param>
+        </member>
+        <member name="P:Volo.Abp.Data.DataSeedContext.Item(System.String)">
+            <summary>
+            Gets/sets a key-value on the <see cref="P:Volo.Abp.Data.DataSeedContext.Properties"/>.
+            </summary>
+            <param name="name">Name of the property</param>
+            <returns>
+            Returns the value in the <see cref="P:Volo.Abp.Data.DataSeedContext.Properties"/> dictionary by given <see cref="!:name"/>.
+            Returns null if given <see cref="!:name"/> is not present in the <see cref="P:Volo.Abp.Data.DataSeedContext.Properties"/> dictionary.
+            </returns>
+        </member>
+        <member name="P:Volo.Abp.Data.DataSeedContext.Properties">
+            <summary>
+            Can be used to get/set custom properties.
+            </summary>
+        </member>
+        <member name="M:Volo.Abp.Data.DataSeedContext.WithProperty(System.String,System.Object)">
+            <summary>
+            Sets a property in the <see cref="P:Volo.Abp.Data.DataSeedContext.Properties"/> dictionary.
+            This is a shortcut for nested calls on this object.
+            </summary>
+        </member>
+        <member name="T:Volo.Abp.ISoftDelete">
+            <summary>
+            Used to standardize soft deleting entities.
+            Soft-delete entities are not actually deleted,
+            marked as IsDeleted = true in the database,
+            but can not be retrieved to the application normally.
+            </summary>
+        </member>
+        <member name="P:Volo.Abp.ISoftDelete.IsDeleted">
+            <summary>
+            Used to mark an Entity as 'Deleted'. 
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Components.IBrandingProvider.LogoUrl">
+            <summary>
+            Logo on white background
+            </summary>
+        </member>
+        <member name="P:Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.Components.IBrandingProvider.LogoReverseUrl">
+            <summary>
+            Logo on dark background
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Volo.Abp.AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.AspNetCore.Builder.AbpAspNetCoreApplicationBuilderExtensions.UseConfiguredEndpoints(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Microsoft.AspNetCore.Routing.IEndpointRouteBuilder})">
+            <summary>
+            Maps endpoints configured with the <see cref="T:Microsoft.AspNetCore.Routing.AbpEndpointRouterOptions"/>.
+            It internally uses the standard app.UseEndpoints(...) method.
+            </summary>
+            <param name="app">The application builder</param>
+            <param name="additionalConfigurationAction">Additional (and optional) endpoint configuration</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
