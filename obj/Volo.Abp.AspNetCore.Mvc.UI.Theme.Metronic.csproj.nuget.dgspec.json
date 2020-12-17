@@ -3805,7 +3805,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj": {
                 "projectPath": "E:\\abpdemo\\abp-3.3.1\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy\\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.csproj"
@@ -3824,7 +3823,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "ConfigureAwait.Fody": {
               "suppressParent": "All",
@@ -3855,9 +3853,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

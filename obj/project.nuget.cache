@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d2IBoB+ccwwwf6CTsbFecE2JhTR9RrlN2JM0InytvIA1T5LuMpixxy/U1P7uOpeSH+N9M6oVpyAgFuuZfJGDuw==",
+  "dgSpecHash": "8Z69SBkb9fyXmeHa8+o4JtpYy3Glm5fBtfWvFyYiV9kSdhRqMtegqA2K/2Ghlp8KqOASCaUI4imxmXkgS+mtsw==",
   "success": true,
   "projectFilePath": "E:\\abpdemo\\abp-3.3.1\\modules\\ecology\\themes\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Metronic.csproj",
   "expectedPackageFiles": [
